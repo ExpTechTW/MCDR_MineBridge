@@ -47,7 +47,7 @@ def on_player_left(server: ServerInterface, player: str):
         "FormatVersion": 1,
         "UUID": UUID,
         "Value": {
-            "function": "on_player_leave",
+            "function": "on_player_left",
             "player": player
         }
     }))
